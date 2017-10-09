@@ -8,7 +8,7 @@ Pod::Spec.new do |spec|
   spec.source = {:git => 'https://github.com/slashkeys/FacebookAuth.git', :tag => "v#{spec.version}"}
   spec.license = { :type => 'MIT', :file => 'LICENSE' }
 
-  spec.ios.deployment_target = '9.3'
+  spec.ios.deployment_target = '9.0'
 
   spec.source_files = 'FacebookAuth/**/*.{swift}'
 end
